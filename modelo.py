@@ -3,12 +3,12 @@
 class ModeloTareas:
     def __init__(self):
         self.tareas = []
-    
+    #funcion para agregar tareas
     def agregar_tarea(self, descripcion):
         self.new_method1()
 
         self.tareas.append(descripcion)
-
+    #funcion para eliminar tareas
     def new_method1(self):
         new_var = "mañana"
         self.deadline = new_var
